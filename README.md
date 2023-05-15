@@ -10,6 +10,10 @@ This project implements a PostgreSQL database schema for an Instagram-like appli
 
 In this build, I used PostgreSQL.
 
+## Important
+
+I have a large dataset (data.sql) that contains binary data. To view the contents of this file, you will need to open it in PgAdmin or any other compatible tool that can handle binary data.
+
 ## Database Schema
 
 1. users: Stores user profiles with information such as username, bio, avatar, contact details, and status.
@@ -34,4 +38,6 @@ In this project I included some quires that you can use
 6. Retrieve all likes for a specific post.
 7. Retrieve the total number of followers for a specific user.
 8. follower suggestions for user.
-9. Retrieve the most popular hashtags based on the number of associated posts..
+9. Retrieve the most popular hashtags based on the number of associated posts.
+10. Retrieve number of comments and likes by date.
+11. Retrieve most popular users
